@@ -1,0 +1,20 @@
+{
+  "name": "NailsWHannah-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bktran/NailsWHannah-Backend.git",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.7.1",
+    "nodemon": "^3.0.3"
+  }
+}
